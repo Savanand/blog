@@ -1,9 +1,15 @@
 'use strict';
 angular.module('blog',[
-    //external
+
+//external
+
     'ngResource',
     'ngRoute',
 
-    //internal
+
+//internal
+    'blogDetail',
     'blogList'
+
+
 ]);

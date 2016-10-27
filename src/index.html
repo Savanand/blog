@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="blog">
 <head>
+    <base href="/">
     <meta charset="UTF-8">
     <title>Blog</title>
-    <!--<script src="js/angular.min.js"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
+
     <script src="/js/app/app.module.js"></script>
     <script src="/js/app/app.config.js"></script>
+
+    <script src="/js/app/blog-detail/blog-detail.module.js"></script>
+    <script src="/js/app/blog-detail/blog-detail.component.js"></script>
+
     <script src="/js/app/blog-list/blog-list.module.js"></script>
     <script src="/js/app/blog-list/blog-list.component.js"></script>
+
     <style>
     .new-class{
         font-size:72px;
     }
     </style>
+
 </head>
+
 <body>
-    <!--<blog-list></blog-list>-->
+
     <div ng-view>
 
     </div>
+
 </body>
+
 </html>

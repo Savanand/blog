@@ -4,7 +4,9 @@ angular.module('blogList').
     component('blogList',{
         //template: "<div class=''><h1 class='.new-class'>{{ title }}</h1><button ng-click='someClickTest()'>Click me!!!</button> </div>",
         templateUrl: "/templates/blog-list.html",
-        controller: function ($scope) {
+        controller: function ($routeParams, $scope) {
+
+            console.log($routeParams)
             var blogItems = [
                 {title: "Harry Potter", id: 1, description: "This is a very good fantasy book", publishDate: "10/23/2016"},
                 {title: "Tea is Healthy", id: 2, description: "This is a list of advantages of tea"},
