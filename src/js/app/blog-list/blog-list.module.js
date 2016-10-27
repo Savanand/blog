@@ -1,2 +1,2 @@
 'use strict';
-angular.module('blogList',[]);
+angular.module('blogList',["post"]);
