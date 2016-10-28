@@ -10,10 +10,16 @@ angular.module('confirmClick').
             var msg = attr.confirmClick || "Are you sure?";
             var clickAction = attr.confirmedClick;
             element.bind('click', function (event) {
-                
+
+                event.stopImmediatePropagation()  // preveting other things to happen
+                event.preventDefault()
                 if(window.confirm(msg)){
                     scope.$eval(clickAction)
                 }
+                else{
+                    console.log("Cancelled")
+                }
+
             })
 
         }

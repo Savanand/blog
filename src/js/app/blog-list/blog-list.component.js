@@ -4,8 +4,14 @@ angular.module('blogList').
     component('blogList',{
         //template: "<div class=''><h1 class='.new-class'>{{ title }}</h1><button ng-click='someClickTest()'>Click me!!!</button> </div>",
         templateUrl: "/templates/blog-list.html",
-        controller: function (Post, $routeParams, $scope) {
+        controller: function (Post, $location, $routeParams, $rootScope, $scope) {
 
+
+            $scope.goToItem = function(post){
+                $rootScope.$apply(function () {
+                    $location.path("/blog/" + post.id)
+                })
+            }
             // Post.query(function (data) {
             //     $scope.notFound = true
             //     angular.forEach(data, function (post) {
