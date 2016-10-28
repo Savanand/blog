@@ -9,7 +9,8 @@ angular.module('blog',[
 
 //internal
     'blogDetail',
-    'blogList'
+    'blogList',
+    'confirmClick'
 
 
 ]);
