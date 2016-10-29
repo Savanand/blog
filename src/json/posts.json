@@ -3,13 +3,21 @@
     "comments": [
       {"id": 1, "text": "Nice book" },
       {"id": 2, "text": "Thrilled!!! Always my favorite" }
-    ]
+    ],
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._AC_UL320_SR218,320_.jpg"
   },
-  {"title": "Tea is Healthy", "id": 2, "description": "This is a list of advantages of tea", "publishDate": "9/5/2016"},
-  {"title": "Music concert on Thanksgiving", "id": 3, "description": "These DJs will play", "publishDate": "1/2/2016"},
-  {"title": "Car Exibition", "id": 4, "description": "Exotic cars will be sighted", "publishDate": "5/5/2016"},
-  {"title": "Road Trip Experience", "id": 5, "description": "Road trip across North America", "publishDate": "2/1/2016"},
-  {"title": "Love is immortal", "id": 6, "description": "Love never dies and here is the proof", "publishDate": "10/15/2016"},
-  {"title": "Life on the Mars?", "id": 7, "description": "Based on the data sent by Mars Rover", "publishDate": "12/21/2015"},
-  {"title": "Tourist Places", "id": 8, "description": "This is a list of places", "publishDate": "3/4/2016"}
+  {"title": "Tea is Healthy", "id": 2, "description": "This is a list of advantages of tea", "publishDate": "9/5/2016",
+  "image": "http://www.yarquah1on1.com/wp-content/uploads/2016/03/healthy-green-tea-cup-tea-leaves.jpg"},
+  {"title": "Music concert on Thanksgiving", "id": 3, "description": "These DJs will play", "publishDate": "1/2/2016",
+  "image": "http://212access.com/wp-content/uploads/2012/12/live-music-concert-1.jpg"},
+  {"title": "Car Exibition", "id": 4, "description": "Exotic cars will be sighted", "publishDate": "5/5/2016",
+  "image":"http://www.carverse.com/postimages/thumbnail_1408227155.jpg"},
+  {"title": "Road Trip Experience", "id": 5, "description": "Road trip across North America", "publishDate": "2/1/2016",
+  "image": "http://www.thehindu.com/multimedia/dynamic/02540/RTX-5_jpg_2540005g.jpg"},
+  {"title": "Love is immortal", "id": 6, "description": "Love never dies and here is the proof", "publishDate": "10/15/2016",
+  "image": "http://66.media.tumblr.com/70eb67df46a3c314949c2c28e97f831a/tumblr_nifi6y16qW1u5u2efo1_1280.jpg"},
+  {"title": "Life on the Mars?", "id": 7, "description": "Based on the data sent by Mars Rover", "publishDate": "12/21/2015",
+  "image": "http://www.seti.org/sites/default/files/martian-20th-century-fox.jpg"},
+  {"title": "Tourist Places", "id": 8, "description": "This is a list of places", "publishDate": "3/4/2016",
+  "image":"https://s-media-cache-ak0.pinimg.com/originals/d8/28/d1/d828d18c48cccbc1f2417bffa46c84d3.png"}
 ]
