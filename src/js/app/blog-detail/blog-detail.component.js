@@ -19,6 +19,17 @@ component('blogDetail',{
             })
         })
 
+
+        $scope.deleteComment = function (comment) {
+
+            $scope.$apply(
+                $scope.post.comments.splice(comment, 1)
+            )
+
+            //someResource.$delete() when actually want to delete data from persistent backend
+
+        }
+        
         $scope.addReply = function () {
             console.log($scope.reply)
             $scope.post.comments.push($scope.reply)

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="034c7291-652f-4844-bd8e-e3888ab9bd34" name="Default" comment="Add base angular app">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/app/blog-detail/blog-detail.component.js" afterPath="$PROJECT_DIR$/src/js/app/blog-detail/blog-detail.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/json/posts.json" afterPath="$PROJECT_DIR$/src/json/posts.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/blog-detail.html" afterPath="$PROJECT_DIR$/src/templates/blog-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/blog-list.html" afterPath="$PROJECT_DIR$/src/templates/blog-list.html" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,6 +28,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="blog-list.component.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/app/blog-list/blog-list.component.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,8 +51,8 @@
       <file leaf-file-name="blog-detail.component.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/app/blog-detail/blog-detail.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="435">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,10 +61,10 @@
       <file leaf-file-name="blog-detail.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/templates/blog-detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            <state relative-caret-position="45">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding>
-                <element signature="n#style#0;n#p#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,8 +73,8 @@
       <file leaf-file-name="blog-list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/blog-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="465">
+              <caret line="31" column="127" selection-start-line="31" selection-start-column="127" selection-end-line="31" selection-end-column="127" />
               <folding />
             </state>
           </provider>
@@ -116,15 +126,15 @@
         <option value="$PROJECT_DIR$/src/js/app/core/post/post.service.js" />
         <option value="$PROJECT_DIR$/src/js/app/blog-detail/blog-detail.module.js" />
         <option value="$PROJECT_DIR$/src/js/app/blog-list/blog-list.module.js" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/js/app/app.module.js" />
         <option value="$PROJECT_DIR$/src/js/app/utils/confirm-click/confim-click.directive.js" />
         <option value="$PROJECT_DIR$/src/js/app/utils/confirm-click/confim-click.module.js" />
-        <option value="$PROJECT_DIR$/src/templates/blog-list.html" />
         <option value="$PROJECT_DIR$/src/js/app/utils/confirm-click/confirm-click.directive.js" />
         <option value="$PROJECT_DIR$/src/js/app/blog-list/blog-list.component.js" />
         <option value="$PROJECT_DIR$/src/json/posts.json" />
         <option value="$PROJECT_DIR$/src/js/app/blog-detail/blog-detail.component.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/templates/blog-list.html" />
         <option value="$PROJECT_DIR$/src/templates/blog-detail.html" />
       </list>
     </option>
@@ -468,12 +478,12 @@
       <workItem from="1477506456183" duration="2264000" />
       <workItem from="1477524589174" duration="12476000" />
       <workItem from="1477680563042" duration="11834000" />
-      <workItem from="1477715049277" duration="1399000" />
+      <workItem from="1477715049277" duration="8338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45948000" />
+    <option name="totallyTimeSpent" value="52887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -676,14 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/blog-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/json/posts.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -710,8 +712,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+        <state relative-caret-position="406">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/app/blog-detail/blog-detail.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -724,20 +734,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app/blog-detail/blog-detail.component.js">
+    <entry file="file://$PROJECT_DIR$/src/templates/blog-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        <state relative-caret-position="465">
+          <caret line="31" column="127" selection-start-line="31" selection-start-column="127" selection-end-line="31" selection-end-column="127" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/blog-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding>
-            <element signature="n#style#0;n#p#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
