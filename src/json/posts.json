@@ -5,7 +5,11 @@
       {"id": 2, "text": "Thrilled!!! Always my favorite" }
     ]
   },
-  {"title": "Tea is Healthy", "id": 2, "description": "This is a list of advantages of tea", "publishDate": "9/5/2014"},
-  {"title": "EDM concenrt", "id": 3, "description": "These DJs will play", "publishDate": "1/2/2015"},
-  {"title": "Tourist Places", "id": 4, "description": "This is a list of places", "publishDate": "7/4/2016"}
+  {"title": "Tea is Healthy", "id": 2, "description": "This is a list of advantages of tea", "publishDate": "9/5/2016"},
+  {"title": "Music concert on Thanksgiving", "id": 3, "description": "These DJs will play", "publishDate": "1/2/2016"},
+  {"title": "Car Exibition", "id": 4, "description": "Exotic cars will be sighted", "publishDate": "5/5/2016"},
+  {"title": "Road Trip Experience", "id": 5, "description": "Road trip across North America", "publishDate": "2/1/2016"},
+  {"title": "Love is immortal", "id": 6, "description": "Love never dies and here is the proof", "publishDate": "10/15/2016"},
+  {"title": "Life on the Mars?", "id": 7, "description": "Based on the data sent by Mars Rover", "publishDate": "12/21/2015"},
+  {"title": "Tourist Places", "id": 8, "description": "This is a list of places", "publishDate": "3/4/2016"}
 ]

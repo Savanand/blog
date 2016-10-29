@@ -2,7 +2,7 @@
 angular.module('blog',[
 
 //external
-
+    'angularUtils.directives.dirPagination',
     'ngResource',
     'ngRoute',
 
@@ -10,7 +10,7 @@ angular.module('blog',[
 //internal
     'blogDetail',
     'blogList',
-    'confirmClick'
+    'confirmClick',
 
 
 ]);
