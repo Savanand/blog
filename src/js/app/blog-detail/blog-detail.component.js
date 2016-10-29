@@ -14,9 +14,24 @@ component('blogDetail',{
                 if(post.id == $routeParams.id){
                     $scope.notFound = false
                     $scope.post = post
+                    resetReply()
                 }
             })
         })
+
+        $scope.addReply = function () {
+            console.log($scope.reply)
+            $scope.post.comments.push($scope.reply)
+            resetReply()
+        }
+        
+        function resetReply() {
+            $scope.reply = {
+                    "id": $scope.post.comments.length + 1,
+                    "text": ""
+            }
+
+        }
 
         // $http.get("/json/posts.json", {}).then(successCallback, errorCallback);
         //

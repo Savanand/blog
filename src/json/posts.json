@@ -1,5 +1,10 @@
 [
-  {"title": "Harry Potter", "id": 1, "description": "This is a very good fantasy book", "publishDate": "10/23/2016"},
+  {"title": "Harry Potter", "id": 1, "description": "This is a very good fantasy book", "publishDate": "10/23/2016",
+    "comments": [
+      {"id": 1, "text": "Nice book" },
+      {"id": 2, "text": "Thrilled!!! Always my favorite" }
+    ]
+  },
   {"title": "Tea is Healthy", "id": 2, "description": "This is a list of advantages of tea", "publishDate": "9/5/2014"},
   {"title": "EDM concenrt", "id": 3, "description": "These DJs will play", "publishDate": "1/2/2015"},
   {"title": "Tourist Places", "id": 4, "description": "This is a list of places", "publishDate": "7/4/2016"}
