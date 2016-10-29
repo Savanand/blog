@@ -27,6 +27,9 @@
     <script src="/js/app/utils/confirm-click/confirm-click.module.js"></script>
     <script src="/js/app/utils/confirm-click/confirm-click.directive.js"></script>
 
+    <script src="/js/app/utils/blog-nav/blog-nav.module.js"></script>
+    <script src="/js/app/utils/blog-nav/blog-nav.directive.js"></script>
+
     <style>
     .new-class{
         font-size:72px;
@@ -36,13 +39,11 @@
 </head>
 
 <body>
-    <nav class="container">
-
-    </nav>
-    <div class="container" ng-view>
-
+    <div class="container">
+        <blog-nav></blog-nav>
+        <div class="col-sm-12" ng-view>
+        </div>
     </div>
-
 </body>
 
 </html>

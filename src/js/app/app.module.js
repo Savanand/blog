@@ -11,6 +11,7 @@ angular.module('blog',[
     'blogDetail',
     'blogList',
     'confirmClick',
+    'blogNav',
 
 
 ]);
