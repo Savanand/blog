@@ -7,7 +7,8 @@
 
 <div class="row">
     <div class="col-sm-6 col-sm-offset-3" >
-        <h1>Blog List</h1>
+        <h1 ng-hide="searchQuery">Blog List</h1>
+        <h1 ng-show="searchQuery">Result for {{ query }}</h1>
         <div class="row">
             <div class="col-sm-6">
             <input type="text" ng-model="query" class="form-control" placeholder="filter">
@@ -41,13 +42,18 @@
     <div class="col-sm-6 col-sm-offset-3" dir-paginate="post in items | orderBy: order | filter: query |
     itemsPerPage: 3 as postItems" pagination-id="sub-content">
         <div class="thumbnail">
-            <img src="{{ post.image }}" alt="..." class="img-thumbnail">
+            <a ng-if='post.image' ng-href="/blog/{{ post.id }}">
+                <img src="{{ post.image }}" alt="..." class="img-responsive">
+            </a>
             <div class="caption">
-                <h3>{{ post.title }}</h3>
+                <h3><a ng-href="/blog/{{ post.id }}">{{ post.title }}</a></h3>
                 <p>{{ post.publishDate }}</p>
                 <p>
-                    <a ng-href="#" class="btn btn-primary" confirm-click="Are you ready?" confirmed-click="goToItem(post)">view</a>
+                    <a ng-href="/blog/{{ post.id }}" class="btn btn-primary">view</a>
                 </p>
+                <!--<p>-->
+                    <!--<a ng-href="#" class="btn btn-primary" confirm-click="Are you ready?" confirmed-click="goToItem(post)">view</a>-->
+                <!--</p>-->
             </div>
         </div>
     </div>

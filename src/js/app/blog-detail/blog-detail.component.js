@@ -10,10 +10,15 @@ component('blogDetail',{
 
         Post.query(function (data) {
             $scope.notFound = true
+            $scope.comments = []
+
             angular.forEach(data, function (post) {
                 if(post.id == $routeParams.id){
                     $scope.notFound = false
                     $scope.post = post
+                    if(post.comments){
+                        $scope.comments = post.comments
+                    }
                     resetReply()
                 }
             })
@@ -23,7 +28,7 @@ component('blogDetail',{
         $scope.deleteComment = function (comment) {
 
             $scope.$apply(
-                $scope.post.comments.splice(comment, 1)
+                $scope.comments.splice(comment, 1)
             )
 
             //someResource.$delete() when actually want to delete data from persistent backend
@@ -32,13 +37,13 @@ component('blogDetail',{
         
         $scope.addReply = function () {
             console.log($scope.reply)
-            $scope.post.comments.push($scope.reply)
+            $scope.comments.push($scope.reply)
             resetReply()
         }
         
         function resetReply() {
             $scope.reply = {
-                    "id": $scope.post.comments.length + 1,
+                    "id": $scope.comments.length + 1,
                     "text": ""
             }
 
